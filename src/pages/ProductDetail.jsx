@@ -123,6 +123,11 @@ const ProductDetail = () => {
              </div>
           </div>
         </div>
+
+        {/* Reviews Section */}
+        <div className="mt-12">
+          <Reviews reviews={product.reviews} />
+        </div>
       </div>
 
       {/* Mobile Sticky Bottom Bar */}

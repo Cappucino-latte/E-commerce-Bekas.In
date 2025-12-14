@@ -103,6 +103,7 @@ const Navbar = () => {
                 </form>
                 <Link to="/" onClick={() => setIsMenuOpen(false)} className="text-xl font-medium text-gray-800 border-b pb-2">Beranda</Link>
                 <Link to="/wishlist" onClick={() => setIsMenuOpen(false)} className="text-xl font-medium text-gray-800 border-b pb-2">Wishlist</Link>
+                <Link to="/messages" onClick={() => setIsMenuOpen(false)} className="text-xl font-medium text-gray-800 border-b pb-2">Pesan</Link>
                 <Link to="/cart" onClick={() => setIsMenuOpen(false)} className="text-xl font-medium text-gray-800 border-b pb-2">Keranjang</Link>
                 <Link to="/sell" onClick={() => setIsMenuOpen(false)} className="text-xl font-medium text-gray-800 border-b pb-2">Jual Barang</Link>
                 <Link to="/auth" onClick={() => setIsMenuOpen(false)} className="bg-primary text-white py-4 rounded-xl font-bold mt-4">Masuk / Daftar</Link>
